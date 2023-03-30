@@ -1,0 +1,6 @@
+input_string = input()
+distinct_letters = set()
+for c in input_string[1:-1]:
+    if c != ' ' and c != ',':
+        distinct_letters.add(c)
+print(len(distinct_letters))
